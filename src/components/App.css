@@ -1,0 +1,953 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#wrapper {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1002;
+}
+
+.mainBG {
+    background-color: #F9FBFF;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    -moz-box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    border-radius: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.selfieV2 {
+    display: none;
+}
+
+.eric-tsai {
+    width: 38%;
+    margin-top: 30px;
+}
+
+.eric-tsai h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #511DFF;
+}
+
+.eric-tsai p {
+    color: #969FA2;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+.eric-tsai a {
+    color: #3A89F4;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.selfie {
+    width: 32%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.circles {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 26px;
+    height: 78px;
+    padding-top: 50px;
+    z-index: -1;
+}
+
+.projectsBG {
+    background-color: #F9FBFF;
+    margin-top: 170px;
+    -webkit-box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    -moz-box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 70px;
+}
+
+.projectsBG-header {
+    width: 100%;
+    text-align: center;
+}
+
+.projectsBG h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #511DFF;
+}
+
+.projectScyre {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.scyre-main {
+    width: 350px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+}
+
+.ScyreDesc {
+    width: 300px;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.ScyreDesc h2 {
+    color: #606060;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ScyreDesc h5 {
+    color: #B4B4B4;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.ScyreDesc p {
+    color: #5b5b5b;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.ScyreDesc a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #FF6E6D, #FF925D);
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.ScyreDesc a:hover {
+    opacity: 0.75;
+}
+
+/*-----------------------Gema----------------------------*/
+
+.projectGema {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 130px;
+}
+
+.gema-main {
+    width: 350px;
+    border-radius: 10px;
+    justify-content: flex-end;
+    -webkit-box-shadow: 0px 5px 45px 0px rgba(179,0,255,0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(179,0,255,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(179,0,255,0.16);
+}
+
+.GemaDesc {
+    width: 300px;
+    text-align: left;
+}
+
+.GemaDesc h2 {
+    color: #606060;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.GemaDesc h5 {
+    color: #B4B4B4;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.GemaDesc p {
+    color: #5b5b5b;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.GemaDesc a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #43416F, #726EB7);
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.GemaDesc a:hover {
+    opacity: 0.75;
+}
+
+.GemaDesc-m {
+    display: none;
+}
+
+
+/*----------------------------- Avian ----------------*/
+
+
+.projectAvian {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 130px;
+}
+
+.avian-main {
+    width: 350px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255, 0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(0, 157,255,0.16);
+}
+
+.AvianDesc {
+    width: 300px;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.AvianDesc h2 {
+    color: #606060;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.AvianDesc h5 {
+    color: #B4B4B4;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.AvianDesc p {
+    color: #5b5b5b;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.AvianDesc a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #A971FF, #59A8E8);
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.AvianDesc a:hover {
+    opacity: 0.75;
+}
+
+
+/*-----------------------Debitz----------------------------*/
+
+.projectDebitz {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 130px;
+}
+
+.debitz-main {
+    width: 350px;
+    border-radius: 10px;
+    justify-content: flex-end;
+    -webkit-box-shadow: 0px 5px 45px 0px rgba(29,255,0,0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(29,255,0,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(29,255,0,0.16);
+}
+
+.DebitzDesc {
+    width: 300px;
+    text-align: left;
+}
+
+.DebitzDesc h2 {
+    color: #606060;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.DebitzDesc h5 {
+    color: #B4B4B4;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.DebitzDesc p {
+    color: #5b5b5b;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.DebitzDesc a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #5CB0DD, #6CF597);
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.DebitzDesc a:hover {
+    opacity: 0.75;
+}
+
+.DebitzDesc-m {
+    display: none;
+}
+
+
+/*-------------------------STUDIES ------------------------*/
+
+.projectsBG-studies {
+    background-color: #F9FBFF;
+    margin-top: 120px;
+    -webkit-box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    -moz-box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 70px;
+}
+
+.studyContainer {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+
+.projectsBG-links {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectsBG-links a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #8D9CB1;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.projectsBG-links a:hover {
+    color:#3A89F4;
+}
+
+.nextLink {
+    justify-content: flex-end;
+}
+
+.scyre-main-study {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+}
+
+.aboutScyre {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.aboutScyre h3 {
+    font-size: 18px;
+    color: #363636;
+    padding-bottom: 10px;
+}
+
+.aboutScyre p {
+    color: #5C5C5C;
+    line-height: 35px;
+}
+
+#scyre-3 {
+    display: flex;
+    white-space: nowrap;
+    align-items: baseline;
+    margin-bottom: -35px;
+}
+
+#scyre-3 h3 {
+    padding-right: 10px;
+}
+
+#studyImg {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+#studyImgGema {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#scyre-iterate-list h4 {
+    padding-top: 15px;
+    font-size: 16px;
+    color: #5C5C5C;
+}
+
+.sticky {
+    border-radius: 15px;
+}
+
+.tabs {
+    pointer-events: none;
+}
+
+.wireframes {
+    border-radius: 15px;
+}
+
+#gema-main-study-img {
+    -webkit-box-shadow: 0px 5px 45px 0px rgba(179,0,255,0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(179,0,255,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(179,0,255,0.16);
+}
+
+.studyTabs {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    pointer-events: none;
+}
+
+.responsive {
+    max-width: 700px;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.gema-vid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.vid-label {
+    color: #511DFF;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 65px;
+}
+
+
+#avian-main-study-img {
+    -webkit-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255, 0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(0, 157,255,0.16);
+}
+
+.aboutMe p {
+    color: #5C5C5C;
+    line-height: 35px;
+}
+
+.aboutMeH1 {
+    color: #511DFF;
+    text-align: center;
+    font-size: 35px;
+}
+
+.carPhoto {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#bioLink {
+    color: #1e65ff;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1125px) {
+    .selfie {
+        width: 40%;
+        height: 100%;
+        justify-content: flex-end;
+    }
+    .eric-tsai {
+        width: 42%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .selfie {
+        width: 45%;
+        height: 100%;
+        justify-content: flex-end;
+        margin-top: 40px;
+    }
+
+    .eric-tsai {
+        width: 45%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .projectScyre {
+        display: flex;
+        justify-content: space-between;
+        width: 97%;
+        max-width: 900px;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .selfie {
+        width: 50%;
+        height: 100%;
+        justify-content: flex-end;
+        margin-top: 40px;
+    }
+
+    .eric-tsai {
+        width: 45%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .selfie {
+        display: none;
+    }
+
+    .selfieV2 {
+        display: block;
+        margin: auto;
+        max-width: 500px;
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    .mainBG {
+        background-color: #F9FBFF;
+        margin-top: 120px;
+        display: block;
+        justify-content: center;
+        -webkit-box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+        -moz-box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+        box-shadow: 0px 3px 45px 0px rgba(0,4,239,0.16);
+        border-radius: 25px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .eric-tsai {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .projectScyre {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        padding-top: 50px;
+    }
+    
+    .scyre-main {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+        -moz-box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+        box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
+    }
+    
+    .ScyreDesc {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .ScyreDesc h2 {
+        color: #606060;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .ScyreDesc h5 {
+        color: #B4B4B4;
+        font-weight: 300;
+        font-size: 16px;
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+    
+    .ScyreDesc p {
+        color: #5b5b5b;
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    
+    .ScyreDesc a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        background-image: linear-gradient(to right, #FF6E6D, #FF925D);
+        border-radius: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
+    
+    .ScyreDesc a:hover {
+        opacity: 0.75;
+    }
+    
+    /*-----------------------Gema----------------------------*/
+    
+    
+    .GemaDesc {
+        display: none;
+    }
+
+    .projectGema {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        padding-top: 120px;
+    }
+    
+    .gema-main {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255, 0.16);
+        -moz-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255,0.16);
+        box-shadow: 0px 5px 45px 0px rgba(0, 157,255,0.16);
+    }
+    
+    .GemaDesc-m {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .GemaDesc-m h2 {
+        color: #606060;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .GemaDesc-m h5 {
+        color: #B4B4B4;
+        font-weight: 300;
+        font-size: 16px;
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+    
+    .GemaDesc-m p {
+        color: #5b5b5b;
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    
+    .GemaDesc-m a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        background-image: linear-gradient(to right, #43416F, #726EB7);
+        border-radius: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
+    
+    .GemaDesc-m a:hover {
+        opacity: 0.75;
+    }
+    
+    
+    /*----------------------------- Avian ----------------*/
+    
+    
+    .projectAvian {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        padding-top: 120px;
+    }
+    
+    .avian-main {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255, 0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(0, 157,255,0.16);
+    }
+    
+    .AvianDesc {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .AvianDesc h2 {
+        color: #606060;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .AvianDesc h5 {
+        color: #B4B4B4;
+        font-weight: 300;
+        font-size: 16px;
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+    
+    .AvianDesc p {
+        color: #5b5b5b;
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    
+    .AvianDesc a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        background-image: linear-gradient(to right, #A971FF, #59A8E8);
+        border-radius: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
+    
+    .AvianDesc a:hover {
+        opacity: 0.75;
+    }
+    
+    
+    /*-----------------------Debitz----------------------------*/
+    
+    .DebitzDesc {
+        display: none;
+    }
+
+    .projectDebitz {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        padding-top: 120px;
+    }
+    
+    .debitz-main {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 5px 45px 0px rgba(29,255,0,0.16);
+    -moz-box-shadow: 0px 5px 45px 0px rgba(29,255,0,0.16);
+    box-shadow: 0px 5px 45px 0px rgba(29,255,0,0.16);
+    
+    }
+    
+    .DebitzDesc-m {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .DebitzDesc-m h2 {
+        color: #606060;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .DebitzDesc-m h5 {
+        color: #B4B4B4;
+        font-weight: 300;
+        font-size: 16px;
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+    
+    .DebitzDesc-m p {
+        color: #5b5b5b;
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    
+    .DebitzDesc-m a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        background-image: linear-gradient(to right, #5CB0DD, #6CF597);
+        border-radius: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
+    
+    .DebitzDesc-m a:hover {
+        opacity: 0.75;
+    }
+}
