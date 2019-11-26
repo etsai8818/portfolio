@@ -135,6 +135,7 @@ body {
 
 .scyre-main {
     width: 350px;
+    height: 100%;
     border-radius: 10px;
     -webkit-box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
     -moz-box-shadow: 0px 5px 45px 0px rgba(255,0,0,0.16);
@@ -199,6 +200,7 @@ body {
 
 .gema-main {
     width: 350px;
+    height: 100%;
     border-radius: 10px;
     justify-content: flex-end;
     -webkit-box-shadow: 0px 5px 45px 0px rgba(179,0,255,0.16);
@@ -269,6 +271,7 @@ body {
 
 .avian-main {
     width: 350px;
+    height: 100%;
     border-radius: 10px;
     -webkit-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255, 0.16);
     -moz-box-shadow: 0px 5px 45px 0px rgba(0, 157, 255,0.16);
@@ -334,6 +337,7 @@ body {
 
 .debitz-main {
     width: 350px;
+    height: 100%;
     border-radius: 10px;
     justify-content: flex-end;
     -webkit-box-shadow: 0px 5px 45px 0px rgba(29,255,0,0.16);
